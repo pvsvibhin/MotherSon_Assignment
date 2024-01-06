@@ -1,0 +1,69 @@
+@import url('https://fonts.googleapis.com/css?family=Comfortaa:regular,bold,italic&subset=latin,latin-ext');
+@import url('https://fonts.googleapis.com/css?family=Raleway:regular,bold,italic&subset=latin,latin-ext');
+
+.name {
+  width: 130px;
+  height: 32px;
+  font-family: 'Comfortaa';
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 32px;
+  letter-spacing: 0px;
+  text-align: left;
+  color: #25282b;
+}
+
+.header {
+  height: 56px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 20px;
+  margin-left: 7%;
+  margin-right: 7%;
+}
+
+li {
+  list-style: none;
+  font-family: 'Raleway';
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 28px;
+  letter-spacing: 0px;
+  text-align: left;
+  margin-left: auto;
+}
+
+a {
+  font-size: 18px;
+  color: #25282b;
+  text-decoration: none;
+}
+
+ul {
+  display: flex;
+  gap: 48px;
+}
+
+.nav {
+  font-weight: bold;
+}
+
+/* Responsive Styles */
+@media only screen and (max-width: 768px) {
+  .header {
+    flex-direction: column;
+    align-items: flex-start;
+    height: auto;
+  }
+
+  ul {
+    flex-direction: row;
+    gap: 10px;
+    margin: 0;
+  }
+
+  .name {
+    margin-bottom: 10px;
+  }
+}

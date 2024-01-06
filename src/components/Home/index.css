@@ -1,0 +1,16 @@
+.home-bg-container {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  overflow-y: auto;
+}
+
+@media screen and (min-width: 768px) {
+  .home-bg-container {
+    background-image: url('https://res.cloudinary.com/dvvxmuf11/image/upload/v1704566430/h3tuovptcuopn0hvjcvz.png');
+    background-repeat: no-repeat;
+    background-position-x: right;
+    background-position-y: top;
+    background-size: 45%;
+  }
+}
