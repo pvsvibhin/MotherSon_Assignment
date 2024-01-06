@@ -2,7 +2,7 @@ import './index.css'
 
 const Header = () => (
   <nav className="header">
-    <h1 className="name">Madelyn Torff</h1>
+    <h1 className="name">PVS Vibhin</h1>
     <ul>
       <li>
         <a href="#about" className="nav">
